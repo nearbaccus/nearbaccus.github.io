@@ -1,10 +1,4 @@
-function enlarge(word){
-  word.style.fontSize = "40px";
-}
 
-function smaller(word){
-  word.style.fontSize = "10px";
-}
 
 function enlargeTwo(cream){
   cream.style.fontSize = "35px";
