@@ -23,3 +23,4 @@ function enlargeImage(image){
 function smallerImage(image){
   image.smaller = wid
 }
+
