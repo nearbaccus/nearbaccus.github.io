@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<head>
+  <link rel = "stylesheet"; href = "icecreamstyle.css">
+  <script src = "icecream.js"></script>
+</head>
+<body onload ="showSlides(1)" bgcolor = #14f562>
+
+  <div class="topnav">
+    <a id="home" href="home.html" onmouseover = "makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
+    <a id="seattle" href="icecream.html" onmouseover = "makeGrey(seattle)" onmouseout="makeBlack(seattle)">Seattle</a>
+    <a id="newyork" href="newyork.html" onmouseover = "makeGrey(newyork)" onmouseout="makeBlack(newyork)">New York</a>
+    <a id="portland" href="portland.html" onmouseover = "makeGrey(portland)" onmouseout="makeBlack(portland)">Portland</a>
+
+  </div>
+
+  <div  id="slideshow">
+    <div class ="slide">
+    <img alt = "Mora icecream in a bowl" src = "https://s3-media2.fl.yelpcdn.com/bphoto/tyxHq2gxiNIOqeo2VCkhtA/o.jpg" height = "350" width = "400">
+  </div>
+    <div class ="slide">
+      <img src = "http://moraicecream.com/wp-content/uploads/5041983155_d9f1d867f3_z.jpg" height = "350" width = "400">
+    </div>
+    <div class ="slide">
+      <img alt = "Blackberry icecream" src = "http://moraicecream.com/wp-content/gallery/homeslides/anbp_120309_mor_blackbrry_v2_12a-cropped_0.jpg" height = "350" width = "400">
+      </div>
+      <button class="next" onclick="plusSlides(1)">Next</button>
+      <button class="prev" onclick="plusSlides(-1)">Prev</button>
+    </div>
+
+
+
+</body>
+</html>
