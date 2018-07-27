@@ -1,48 +1,63 @@
-.games{
-  text-decoration: none;
-  color: white;
-}
 
-.gamess{
-  background-color: purple;
-  width: 100px;
-  height: 50px;
-  border: none;
+h1{
+  font-size: 45px;
+  font-family: 'Lobster', cursive;
+  color: black;
 }
 
 
-.news{
-  text-decoration: none;
-  color: white;
+div{
+  font-size: 18px;
 }
 
-.newss{
-  background-color: green;
-  width: 100px;
-  height: 50px;
-  border: none;
-}
 
-.cats{
-  text-decoration: none;
-  color: white;
-}
-
-.catss{
-  background-color: orange;
-  width: 100px;
-  height: 50px;
-  border: none;
-}
-
-button{
-  background-color: green;
-}
 
 h3{
-  color: white;
+  font-size: 28px;
+  color: #14f562;
 }
 
-h2{
+
+
+.topnav{
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
   color: white;
+  background-color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#slideshow{
+  border: 1px black solid;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+.slide img{
+  width: 600px;
+  height: 400px;
+}
+
+.slide{
+
+}
+
+.prev, .next{
+  width: auto;
+  position: absolute;;
+  top: 50%;
+}
+
+.next{
+  right: 0;
 }
