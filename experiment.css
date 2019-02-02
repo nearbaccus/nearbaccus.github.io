@@ -25,7 +25,7 @@ img {
 
 
 /* for smaller screens change size */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
   img {
 
