@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<body>
+<head>
+  <link rel="stylesheet"; href="experiment.css"> </head>
+  <script type="experiment.js">
+
+  </script>
+  <div>
+    <h1>Cats</h1>
+    <p>Paragraph of text. Paragraph of text. Paragraph of text.</p>
+    <img src="cats.jpg">
+        <img src="cats.jpg">
+  <img src="cats.jpg">
+              <img src="cats.jpg">
+</div>
+  </body>
