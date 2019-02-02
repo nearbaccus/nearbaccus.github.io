@@ -1,0 +1,23 @@
+#change {
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 1em;
+}
+h1 {
+  color: blue;
+  align-content: center;
+}
+img {
+
+  height: 20%;
+    width: 20%;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 100%; // Override width to show only one image in a row on smaller screens
+  }
+}
