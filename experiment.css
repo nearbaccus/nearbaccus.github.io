@@ -10,7 +10,7 @@
 
 h1 {
 
-  color: black;
+  color: blue;
 padding-left: 50%;
 
 }
@@ -25,7 +25,7 @@ img {
 
 
 /* for smaller screens change size */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
   img {
 
