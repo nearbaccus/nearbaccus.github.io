@@ -1,0 +1,136 @@
+
+#change {
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 1em;
+
+}
+
+h1 {
+
+  color: black;
+
+  align-content: center;
+
+}
+
+img {
+
+  height: 23%;
+    width: 23%;
+    padding-right: 15px;
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+  img {
+
+    width: 100%; // Override width to show only one image in a row on smaller screens
+
+  }
+  .topnav a {
+
+  width: 100%
+  }
+
+}
+
+
+
+
+.topnav{
+
+  background-color: black;
+
+  overflow: hidden;
+
+}
+
+
+
+.topnav a {
+
+  float: left;
+
+  color: white;
+
+  background-color: black;
+
+  text-align: center;
+width: 20%;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+  font-size: 17px;
+
+}
+
+
+
+#slideshow{
+
+  border: 1px black solid;
+
+  width: 600px;
+
+  height: 400px;
+
+  position: relative;
+
+  margin: auto;
+
+  display: block;
+
+}
+
+
+
+.slide img{
+
+  width: 600px;
+
+  height: 400px;
+
+}
+
+
+
+.slide{
+
+
+
+}
+
+
+
+.prev, .next{
+
+  width: auto;
+
+  position: absolute;;
+
+  top: 50%;
+
+}
+
+
+
+.next{
+
+  right: 0;
+
+}
+
+body{
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+
+}
