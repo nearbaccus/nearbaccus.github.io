@@ -11,31 +11,34 @@
 h1 {
 
   color: black;
-
-  align-content: center;
+padding-left: 50%;
 
 }
 
 img {
 
-  height: 23%;
-    width: 23%;
-    padding-right: 15px;
+    width: 28.1%;
+
+    padding-left: 2.5%;
 
 }
 
 
-
-@media (max-width: 1000px) {
+/* for smaller screens change size */
+@media (max-width: 800px) {
 
   img {
 
-    width: 100%; // Override width to show only one image in a row on smaller screens
-
+    width: 91%;
+    padding-left: 5%;
   }
   .topnav a {
 
   width: 100%
+  }
+
+  .leftpic{
+    padding-left: 2.5%;
   }
 
 }
@@ -51,7 +54,9 @@ img {
 
 }
 
-
+.leftpic{
+  padding-left: 5%;
+}
 
 .topnav a {
 
