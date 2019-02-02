@@ -10,7 +10,7 @@
 
 h1 {
 
-  color: blue;
+  color: black;
 padding-left: 50%;
 
 }
@@ -23,6 +23,10 @@ img {
 
 }
 
+.writing{
+  padding-left: 5%;
+}
+
 
 /* for smaller screens change size */
 @media (max-width: 800px) {
@@ -33,7 +37,6 @@ img {
     padding-left: 5%;
   }
   .topnav a {
-
   width: 100%
   }
 
@@ -137,5 +140,11 @@ body{
   border-style: solid;
   border-width: medium;
   border-color: black;
+  font-size: 18px;
 
+}
+
+p{
+
+  padding-left: 5%;
 }
