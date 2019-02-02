@@ -29,7 +29,7 @@ img {
 
 
 /* for smaller screens change size */
-@media (max-width: 802px) {
+@media (max-width: 1000px) {
 
   img {
 
