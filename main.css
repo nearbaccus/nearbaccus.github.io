@@ -1,0 +1,142 @@
+
+
+.centerText{
+  text-align: center;
+}
+
+
+/* navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  background-color:  black;
+  text-align: center;
+  width: 22%;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav{
+  background-color: black;
+  overflow: hidden;
+}
+
+
+
+.bottomPage{
+  background-color: #ccccff;
+}
+
+
+
+
+/* create blank line */
+.gapSmall{
+width: 100%;
+height: 10px;
+}
+
+.gapLarge{
+  width: 100%;
+  height: 35px;
+}
+
+.gapXL{
+  width: 100%;
+  height: 45px;
+  color: white;
+}
+
+.gapXXL{
+  width: 100%;
+  height: 80px;
+  color: white;
+}
+
+.topPage{
+
+}
+
+
+.dottedLine{
+margin-left: 19%;
+margin-right: 19%;
+border: 5px dotted;
+border-style: none none dotted;
+color:  #ccccff;
+border-length: 200px;
+
+}
+
+
+.blank{
+  color: white;
+  width: 100%;
+}
+
+.text{
+  display: none;
+}
+
+
+.filter{
+  margin-left: 80%;
+width: 6%;
+  font-size: 18px;
+  top: 20%;
+  border:  #ccccff 5px solid;
+  border-color:  #ccccff;
+  position: absolute;
+  display: inline-block;
+
+}
+
+.map{
+  margin-left: 18%;
+}
+.map p{
+  color: black;
+}
+
+
+
+checkbox{
+  color: "blue";
+}
+
+.filerButton{
+  margin-left: 70%;
+width: 9.5%;
+  font-size: 18px;
+  top: 20%;
+  border:  #ccccff 5px solid;
+  border-color:  #ccccff;
+  position: absolute;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1820px) {
+  .filter{
+    margin-left: 80%;
+  width: 7%;
+    font-size: 18px;
+    top: 20%;
+    border:  #ccccff 5px solid;
+    border-color:  #ccccff;
+    position: absolute;
+    display: inline-block;
+
+  }
+  }
+  @media only screen and (max-width: 1400px) {
+    .filter{
+      margin-left: 86%;
+    width: 10%;
+      font-size: 18px;
+      top: 20.5%;
+      border:  #ccccff 5px solid;
+      border-color:  #ccccff;
+      position: absolute;
+      display: inline-block;
+      }
+    }
