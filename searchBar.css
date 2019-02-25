@@ -112,6 +112,7 @@ body, html {
         transform: translateX(-50%);
         width: 36%;
         }
+}
         
            @media only screen and (max-width: 801px) {
       .search-bar{
@@ -122,3 +123,4 @@ body, html {
         transform: translateX(-50%);
         width: 89%;
         }
+}
