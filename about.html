@@ -21,64 +21,34 @@
           </div>
 </div>
 
-<div class="map">
-<h1> Emily's favorite resturants</h1>
-<p>In addition to cooking and baking, Emily provides resturant recomendations on where to eat in the Seattle area</p>
+
+  <!-- navigation bar -->
+  <!DOCTYPE html>
+  <html>
+      <head>
+
+          <title>traffichideshowtrafficHTML</title>
+          <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+          <style type='text/css'>body{margin:0;padding:0;overflow:hidden;font-family:'Segoe UI',Helvetica,Arial,Sans-Serif}</style>
+      </head>
+      <body>
+          <div id='printoutPanel'></div>
+
+          <div id='myMap' style='width: 100vw; height: 100vh;'></div>
+          <script type='text/javascript'>
+              function loadMapScenario() {
+                  var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
+                    credentials: 'Am-xVTuh_WQMt3NqxzB6YIlD2i-JpVcOgD2ECPGl_YwYKdLCrV7wrFjz6SnY4SXS',
+                      center: new Microsoft.Maps.Location(47.606209, -122.332071),
+                      zoom: 12 });
 
 
-
-    <head>
-        <title></title>
-        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-        <style type='text/css'>body{margin:0;padding:0;overflow:hidden;font-family:'Segoe UI',Helvetica,Arial,Sans-Serif}</style>
-    </head>
-    <body>
-        <div id='printoutPanel'></div>
-
-        <div id='myMap' style='width: 70vw; height: 70vh;'></div>
-        <script type='text/javascript'>
-            function loadMapScenario() {
-                var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {});
-            }
-        </script>
-        <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=YourBingMapsKey&callback=loadMapScenario' async defer></script>
-    </body>
-</html>
-<script type = "ts.ts">
-    //TypeScript code goes here
-</script>
-
-<script>
-       var getLocations = function(mapObj, latitude, longtitude)
-       {
-           for (var i = 0; i < latitude.length; i++)
-           {
-               var pushpin = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(latitude[i] + ", " + longtitude[i]), null);
-               Microsoft.Maps.Events.addHandler(pushpin, 'mouseup', ZoomIn);
-               mapObj.entities.push(pushpin);
-           }
-       }
-
-       var lats = [26.273714, 19.890723, 15.961329];
-       var longs = [84.902344, 84.624022, 80.1416];
-
-       var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
-           credentials: 'myBingMapsKeyGoesHere'
-       });
-
-           map.entities.clear();
-           getLocations(map, lats, longs);
-           function ZoomIn(e) {
-               if (e.targetType == 'pushpin') {
-                   var location = e.target.getLocation();
-                   map.setView({
-                       zoom: 5,
-                       center: location
-                   });
-               }
-           }
-    </script>
-
+              }
+          </script>
+          <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=YourBingMapsKey&callback=loadMapScenario' async defer></script>
+            <script src="map.js"></script>
+      </body>
+  </html>
 
 
 <!-- </head>
