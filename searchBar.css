@@ -39,7 +39,6 @@ body, html {
 .search-bar{
   position: absolute;
   display: inline-block;
-  right: 10%;
   top: 15%;
   transform: translateX(-50%);
   width: 90%;
