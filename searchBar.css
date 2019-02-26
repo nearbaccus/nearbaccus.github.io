@@ -43,7 +43,6 @@ body, html {
   top: 15%;
   transform: translateX(-50%);
   width: 95%;
-  max-width: 40%;
   height: 48px;
   background: #fff;
   border-radius: 2px;
@@ -114,13 +113,4 @@ body, html {
         }
 }
         
-           @media only screen and (max-width: 801px) {
-      .search-bar{
-        position: absolute;
-        display: inline-block;
-        right: 10%;
-        top: 12%;
-        transform: translateX(-50%);
-        width: 90%;
-        }
-}
+          
