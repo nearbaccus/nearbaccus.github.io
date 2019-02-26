@@ -161,6 +161,38 @@ float: right;
           }
             }
 
+   @media only screen and (max-width: 800px) {
+          .recipe{
+            position: relative;
+            top: 0;
+            margin: auto;
+            width: 90%;
+            border:  #ccccff 5px solid;
+            border-color:  #ccccff;
+            font-size: 16px;
+          }
+          button{
+            font-size: 15px;
+            position: absolute;
+            bottom: 10%;
+            left: 82%;
+          text-align: center;
+          display: inline-block;
+          font-size: 16px;
+          width: 16%;
+          height: 20%;
+          }
+          /* .longTitle{
+            top: 38%;
+          } */
+          .recipeTitle{
+            font-size: 23px;
+          }
+          p{
+            font-size: 17px;
+          }
+            }
+
 
 checkbox{
   color: blue;
