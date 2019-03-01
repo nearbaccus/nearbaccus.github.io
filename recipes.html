@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
 
- 
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+
+<h2>Clickable Dropdown</h2>
+<p>Click on the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button id="filterBtn" class="dropbtn">Filter</button>
+  <div id="myDropdown" class="dropdown-content">
+    <div class="filter">
+     <div class = "gapSmall"></div>
+ <h5>&nbsp; Filter: </h5>
+ <div class = "gapSmall"></div>
+  &nbsp;Breakfast: <input type="checkbox" id="breakfast"  onclick="myFunction()">
+  <div class = "gapSmall"></div>
+ &nbsp;Lunch: <input type="checkbox" id="lunch"  onclick="myFunction()">
+ <div class = "gapSmall"></div>
+ &nbsp;Dinner: <input type="checkbox" id="dinner"  onclick="myFunction()">
+ <div class = "gapSmall"></div>
+ &nbsp;Dessert: <input type="checkbox" id="dessert"  onclick="myFunction()">
+ <div class = "gapSmall"></div>
+ </div>
+  </div>
+</div>
+
+<script src="map.js">
+
+</script>
+
+</body>
+
+
+
   <link rel="stylesheet" href="recipes.css"></link>
   <link rel="stylesheet" href="main.css"></link>
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <script src="main.js"></script>
 
-
+<!-- navigation bar -->
 <div class = "topPage">
 <h1 class = "centerText">&#x2727; My Life in Food &#x2727;</h1>
 
@@ -58,7 +128,7 @@
             <img class = "recipePhoto" src="http://www.browneyedbaker.com/wp-content/uploads/2016/05/white-bread-51-600-600x400.jpg"></img>
             <a class = "recipeTitle">White Bread</a>
               <div class="gap">gap</div>
-            <p>  Ingredients: 3 T best quality  extra virgin olive oil &middot;
+            <p>  Ingredients: 3 T best quality extra virgin olive oil &middot;
               1 T balsamic vinegar &middot;
               1 t sugar &middot;
               Pour all ingredients into a mason jar; cover and shake vigorously.
@@ -137,7 +207,7 @@
 
   <link rel="stylesheet" href="css.css"></link>
 
-  <div class="filter">
+  <!-- <div class="filter">
     <div class = "gapSmall"></div>
 <h5>&nbsp; Filter: </h5>
 <div class = "gapSmall"></div>
@@ -147,23 +217,16 @@
 <div class = "gapSmall"></div>
 &nbsp;Dinner: <input type="checkbox" id="dinner"  onclick="myFunction()">
 <div class = "gapSmall"></div>
-&nbsp;Dessert: <input type="checkbox" id="dessert"  onclick="myFunction()">
+&nbsp;Dessert: <input type="checkbox" id="dessert" onclick="myFunction()">
 <div class = "gapSmall"></div>
 </div>
-
+ -->
 
 
 
 
 <script src="filter.js">
-
 </script>
 
 </body>
 </html>
- 
-
-
-
-
-
