@@ -1,102 +1,93 @@
-
+<!--
 <!DOCTYPE html>
 <html>
 <head>
-  
+
   <link rel="stylesheet" href="main.css"></link>
+    <script src = "map.js" type = "text/javascript"></script>
   <link rel="stylesheet" href="home.css"></link>
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <script src="main.js"></script>
-  <!-- navigation bar --> 
-<div class = "topPage">
+  <script src="main.js"></script> -->
+  <!-- navigation bar -->
+<!-- <div class = "topPage">
 <h1 class = "centerText">&#x2727; My Life in Food &#x2727;</h1>
 
 
-  <div class="topnav">
-            <a id="home" href="home.html" onmouseover = "makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
-          <a id="recipes" href="recipes.html" onmouseover = "makeGrey(recipes)" onmouseout="makeBlack(recipes)">Recipes</a>
-          <a id="subscribe" href="subscribe.html" onmouseover = "makeGrey(subscribe)" onmouseout="makeBlack(subscribe)">Subscribe</a>
 
-          <a id="about" href="about.html" onmouseover = "makeGrey(about)" onmouseout="makeBlack(about)">About</a>
-          <script src="main.js"></script>
+
+<script type='text/javascript'
+
+          src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
+
+          async defer></script> -->
+
+          <!DOCTYPE html>
+
+
+
+          <html>
+
+
+
+          <head>
+
+            <link rel="stylesheet" href="main.css">
+                <link rel="stylesheet" href="map.css"></link>
+                <script src = "map.js" type = "text/javascript"></script>
+
+
+                <style type='text/css'>body{margin:0;padding:0;font-family:'Segoe UI',Helvetica,Arial,Sans-Serif;}</style>
+
+              <meta charset="utf-8" />
+
+              <script class="map" type='text/javascript'
+
+                      src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
+
+                      async defer></script>
+<link rel="stylesheet" href="map.css"></link>
+
+
+          </head>
+
+
+
+          <div class="topnav">
+                    <a id="home" href="home.html" onmouseover = "makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
+                  <a id="recipes" href="recipes.html" onmouseover = "makeGrey(recipes)" onmouseout="makeBlack(recipes)">Recipes</a>
+                  <a id="subscribe" href="subscribe.html" onmouseover = "makeGrey(subscribe)" onmouseout="makeBlack(subscribe)">Subscribe</a>
+
+                  <a id="about" href="about.html" onmouseover = "makeGrey(about)" onmouseout="makeBlack(about)">About</a>
+                  <script src="main.js"></script>
+                  </div>
+        </div>
+
+
+<!-- <h1 class="about">About</div> -->
+            <h1 class="centerText">Resturant Suggestions</h1>
+
+            <div class="resturantP"> Here are some of Emily's resturant suggestions</div>
+
+              <div id="myMap" style="margin-left: 20%; position:relative;width:60%;height:500px;"></div>
+
+<div class="gapXL"></div>
+<div class="dottedLine"></div>
+
+
+
+
           </div>
-</div>
 
 
-  <!-- navigation bar -->
-  <!DOCTYPE html>
-  <html>
-      <head>
-
-          <title>traffichideshowtrafficHTML</title>
-          <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-          <style type='text/css'>body{margin:0;padding:0;overflow:hidden;font-family:'Segoe UI',Helvetica,Arial,Sans-Serif}</style>
-      </head>
-      <body>
-          <div id='printoutPanel'></div>
-
-          <div id='myMap' style='width: 100vw; height: 100vh;'></div>
-          <script type='text/javascript'>
-              function loadMapScenario() {
-                  var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
-                    credentials: 'Am-xVTuh_WQMt3NqxzB6YIlD2i-JpVcOgD2ECPGl_YwYKdLCrV7wrFjz6SnY4SXS',
-                      center: new Microsoft.Maps.Location(47.606209, -122.332071),
-                      zoom: 12 });
 
 
-              }
-          </script>
-          <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=YourBingMapsKey&callback=loadMapScenario' async defer></script>
-            <script src="map.js"></script>
-      </body>
-  </html>
 
 
-<!-- </head>
 
-<title></title>
-    <meta charset="utf-8" />
-    <script type='text/javascript'>
-    var map, baseLayer, drawingManager;
 
-    function GetMap() {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'YourBingMapsKey'
-        });
 
-        //Load the DrawingTools module
-        Microsoft.Maps.loadModule('Microsoft.Maps.DrawingTools', function () {
-            //Create a base layer to add drawn shapes.
-            baseLayer = new Microsoft.Maps.Layer();
-            map.layers.insert(baseLayer);
+          </body>
 
-            //Create an instance of the DrawingTools class and bind it to the map.
-            var tools = new Microsoft.Maps.DrawingTools(map);
 
-            //Show the drawing toolbar and enable editting on the map.
-            tools.showDrawingManager(function (manager) {
-                drawingManager = manager;
 
-                Microsoft.Maps.Events.addHandler(drawingManager, 'drawingEnded', function (e) {
-                    //When use finisihes drawing a shape, removing it from the drawing layer and add it to the base layer.
-                    var shapes = drawingManager.getPrimitives();
-
-                    if (shapes) {
-                        drawingManager.clear();
-                        baseLayer.add(shapes);
-                    }
-                });
-
-                Microsoft.Maps.Events.addHandler(drawingManager, 'drawingChanging', function (e) {
-                    //When the drawing is changing, clear the base layer.
-                    baseLayer.clear();
-                });
-            })
-        });
-    }
-    </script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
-</head>
-<body>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
-</body> -->
+          </html>
