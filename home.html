@@ -1,40 +1,3 @@
-<!-- <!DOCTYPE html>
-<html>
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-<head>
-  <link rel = "stylesheet"; href = "icecreamstyle.css">
-  <script src = "icecream.js"></script>
-</head>
-<body onload ="showSlides(1)" bgcolor = #14f562>
-
-  <div class="topnav">
-    <a id="home" href="home.html" onmouseover = "makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
-    <a id="seattle" href="icecream.html" onmouseover = "makeGrey(seattle)" onmouseout="makeBlack(seattle)">Seattle</a>
-    <a id="newyork" href="newyork.html" onmouseover = "makeGrey(newyork)" onmouseout="makeBlack(newyork)">New York</a>
-    <a id="portland" href="portland.html" onmouseover = "makeGrey(portland)" onmouseout="makeBlack(portland)">Portland</a>
-
-  </div>
-
-  <div  id="slideshow">
-    <div class ="slide">
-    <img alt = "Mora icecream in a bowl" src = "https://s3-media2.fl.yelpcdn.com/bphoto/tyxHq2gxiNIOqeo2VCkhtA/o.jpg" height = "350" width = "400">
-  </div>
-    <div class ="slide">
-      <img src = "http://moraicecream.com/wp-content/uploads/5041983155_d9f1d867f3_z.jpg" height = "350" width = "400">
-    </div>
-    <div class ="slide">
-      <img alt = "Blackberry icecream" src = "http://moraicecream.com/wp-content/gallery/homeslides/anbp_120309_mor_blackbrry_v2_12a-cropped_0.jpg" height = "350" width = "400">
-      </div>
-      <button class="next" onclick="plusSlides(1)">Next</button>
-      <button class="prev" onclick="plusSlides(-1)">Prev</button>
-    </div>
-
-
-
-</body>
-</html> -->
-
-
 
 <!DOCTYPE html>
 <html>
@@ -62,29 +25,21 @@
 
 <body>
 
-<h1 class="centerText">Experiment</h1>
+<h1 class="centerText">Recent Posts</h1>
 
 
 
 <div class="slideShow">
-  <div class="recentRecipe">
+  <div class="recentRecipe" id ="mintBrownies">
     <img src="https://mankitchenrecipes.com/user_images/8612986.jpg" style="width:100%">
-    <div class="title">Mint Brownies</div>
-    <p class="description">Ingredients: 1 c salted butter (2 sticks), room temperature &middot;
-      3/4 c white sugar &middot;
-      1 c brown sugar &middot;
-      2 large eggs, room temperature &middot;
-      1 t vanilla &middot;
-      3 cups all-purpose flour &middot;
-      3/4 t salt &middot;
-      3/4 t baking soda &middot;
-      2 1/2 cups Ghirardelli chocolate chips, (plus optional 1/2 c more)</p>
+    <div class="title" id = "title"></div>
+    <div class="description" id="ing"></div>
    <button class = "readmore"><a href="mintBrownies.html">Read More</a></button>
   </div>
 
-  <div class="recentRecipe">
+  <div class="recentRecipe" id ="chocoChipCookies">
     <img src="http://www.browneyedbaker.com/wp-content/uploads/2016/05/white-bread-51-600-600x400.jpg" style="width:100%">
-    <div class="title">White Bread</div>
+    <div class="title" id = "title"></div>
     <button class = "readmore"><a href="whiteBread.html">Read More</a></button>
   </div>
   <link rel="stylesheet" href="home.css"></link>
@@ -117,7 +72,7 @@
 <!-- shop top products -->
   <h2 class = "centerText">Shop Products Mentioned in Posts</h2>
   <div class="gapLarge"></div>
-  <a target = "_blank" href="https://www.amazon.com/gp/product/B000G0KJG4/ref=oh_aui_search_asin_title?ie=UTF8&psc=1"><img class = "leftImg" src="sheetPan.png"></a></img>
+  <a target = "_blank" href="https://www.williams-sonoma.com/products/usa-pan-goldtouch-nonstick-loaf-pan/?pkey=s%7Cgold%20touch%7C146"><img class = "leftImg" src="breadPan.png"></a></img>
   <a target = "_blank" href="https://www.williams-sonoma.com/products/usa-pan-goldtouch-nonstick-loaf-pan/?pkey=s%7Cgold%20touch%7C146"><img class = "imgShop" src="breadPan.png"></a></img>
   <a target = "_blank" href="https://www.williams-sonoma.com/products/williams-sonoma-potato-masher/?pkey=s%7Cpotato%20masher%7C6"><img class = "imgShop" src="breadPan.png"></a></img
   <div class="gapLarge"></div>
@@ -127,8 +82,43 @@
 <div class="dottedLine"></div>
 
 
-<h2 class ="centerText">Emily's Resturant Recomendations</h2>
 
+
+<script class="map" type='text/javascript'
+
+        src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
+
+        async defer></script>
+<link rel="stylesheet" href="map.css"></link>
+<!-- <h1 class="about">About</div> -->
+            <h1 class="centerText">Resturant Suggestions</h1>
+
+            <div> Here are some of Emily's resturant suggestions</div>
+
+              <div id="myMap" style="margin-left: 20%; position:relative;width:60%;height:500px;"></div>
+
+<div class="gapXL"></div>
+
+
+  <script src = "map.js" type = "text/javascript"></script>
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+          </body>
+
+
+
+          </html>
 
 
 
