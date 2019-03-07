@@ -291,7 +291,7 @@ map.entities.push(pushpin);
 				var slide = this.slides[i];
 
 				if( slide !== currentSlide ) {
- 
+
 					slide.style.opacity = 0;
 
 				}
