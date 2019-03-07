@@ -19,37 +19,19 @@ for(i = 0; i < lis.length; i++){
   });
 }
 
-
-
-
-function Recipe(name, ingredients){
-  this.name = name;
+function Recipe(title, ingredients){
+  this.title = title;
   this.ingredients = ingredients;
 }
 
-var cheesyBread = new Recipe("Cheesy Bread Sticks", "hi2");
-var sheetCake = new Recipe("Sheet Cake", "hi2");
-var chocoChipCookies = new Recipe("Chocolate Chip Cookies", "hi3");
-var mintBrownies = new Recipe("Mint Brownies", "Ingredients: 3 T best quality extra virgin olive oil &middot;balsamic vinegar &middot;sugarall ingredients into a mason jar; cover and shake vigorously.");
+var mintBrownies = new Recipe("Mint", "Ing");
+var
 
-
-Recipes = [cheesyBread, sheetCake, chocoChipCookies, mintBrownies];
-
-var currentRecipeIndex = 3;
-
-
-if(document.getElementById("chocoChipCookies")){
-  currentRecipeIndex = 2;
-document.getElementById("title").innerHTML = Recipes[currentRecipeIndex].name;
-}
+Recipes = [mintBrownies];
 
 if(document.getElementById("cheesyBreadSticks")){
-  currentRecipeIndex = 2;
-document.getElementById("title").innerHTML = Recipes[currentRecipeIndex].name;
+document.getElementById("title").innerHTML = Recipes[0].title;
 }
-
-if(document.getElementById("mintBrownies")){
-  currentRecipeIndex = 3;
-document.getElementById("title").innerHTML = Recipes[currentRecipeIndex].name;
-document.getElementById("ing").innerHTML = Recipes[currentRecipeIndex].ingredients;
+else if(document.getElementById("winterSalad")){
+document.getElementById("winterSaladTitle").innerHTML = "here";
 }
