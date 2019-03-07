@@ -1,4 +1,5 @@
 //main.js
+
 function makeGrey(a){
   a.style.backgroundColor= "#ccccff";
     a.syle.color = "black";
@@ -24,14 +25,38 @@ function Recipe(title, ingredients){
   this.ingredients = ingredients;
 }
 
-var mintBrownies = new Recipe("Mint", "Ing");
-var
+var mintBrownies = new Recipe("Mint Brownies", "  Ingredients: 3 T best quality extra virgin olive oil &middot; 1 T balsamic vinegar &middot; 1 t sugar &middot; Pour all ingredients into a mason jar; cover and shake vigorously.");
+var whiteBread = new Recipe("White Bread", "ing");
+var chocoChipCookies = new Recipe("Chocolate Chip Cookies", "ing");
+var winterSalad = new Recipe("Balsamic Vinaigrette Salad", " Ingredients: 3 T best quality extra virgin olive oil &middot; 1 T balsamic vinegar &middot; 1 t sugar &middot; Pour all ingredients into a mason jar; cover and shake vigorously.");
+var cheesyBread = new Recipe("Cheesy Bread Sticks", "ing");
 
-Recipes = [mintBrownies];
+var num = 3;
+
+Recipes = [mintBrownies, whiteBread, chocoChipCookies, winterSalad, cheesyBread];
+
+if(document.getElementById("mintBrownies")){
+  num = 0;
+document.getElementById("mbtitle").innerHTML = Recipes[num].title;
+document.getElementById("ing").innerHTML = Recipes[num].ingredients;
+}
+
+if(document.getElementById("whiteBread")){
+  num = 1;
+document.getElementById("wbtitle").innerHTML = Recipes[num].title;
+}
+
+if(document.getElementById("chocoChipCookies")){
+  num = 2;
+document.getElementById("ccctitle").innerHTML = Recipes[num].title;
+}
+
+if(document.getElementById("winterSalad")){
+  num = 3;
+document.getElementById("wstitle").innerHTML = Recipes[num].title;
+}
 
 if(document.getElementById("cheesyBreadSticks")){
-document.getElementById("title").innerHTML = Recipes[0].title;
-}
-else if(document.getElementById("winterSalad")){
-document.getElementById("winterSaladTitle").innerHTML = "here";
+  num = 4;
+document.getElementById("cbtitle").innerHTML = Recipes[4].title;
 }
