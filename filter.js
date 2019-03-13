@@ -1,3 +1,4 @@
+//filter
 
 
 function myFunction() {
@@ -5,8 +6,10 @@ function myFunction() {
   var dinnerCheck = document.getElementById("dinner");
 
 
-  var desserts = [mintBrownies, chocoChipCookies];
-  var dinner = [winterSalad, cheesyBreadSticks, whiteBread]
+checks = [dessertCheck, dinnerCheck];
+
+  var desserts = document.getElementsByClassName("de");
+  var dinner = document.getElementsByClassName("di");
 
   if (dessertCheck.checked == true){
     for (i=0; i < desserts.length; i++){desserts[i].style.display="block";}
