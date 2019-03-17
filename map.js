@@ -11,6 +11,11 @@ function makeBlack(b){
 }
 
 
+
+
+
+
+
 function GetMap() {
     map = new Microsoft.Maps.Map('#myMap', {
         credentials: 'AoYDlUxB1n_Wkk8nKDVnVCFD_SzWWkxX5NoAiYNYhILk2ZXTrYLfe7LMgYash4y1'
