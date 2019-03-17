@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+  <head>
+    <div class = "topPage">
+    <h1 class = "centerText">&#x2727; My Life in Food &#x2727;</h1>
+    <link rel="stylesheet" href="main.css"></link>
+    <link rel="stylesheet" href="subscribe.css"></link>
+
+      <div class="topnav">
+                <a id="home" href="home.html" onmouseover = "makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
+              <a id="recipes" href="recipes.html" onmouseover = "makeGrey(recipes)" onmouseout="makeBlack(recipes)">Recipes</a>
+              <a id="subscribe" href="subscribe.html" onmouseover = "makeGrey(subscribe)" onmouseout="makeBlack(subscribe)">Subscribe</a>
+              <a id="about" href="about.html" onmouseover = "makeGrey(about)" onmouseout="makeBlack(about)">About</a>
+
+              </div>
+
+</div>
+</head>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
+<script src="subscribe.js">
+
+</script>
+<body>
+  <div class="gapSmall"></div>
+  <h1 class="centerText">Subscribe</h1>
+<div class="sub">
+<form onsubmit="testt()">
+    <div class="form-group">
+        <div class="gapSmall"></div>
+        <div class = "des">Subscribe to My Life in Food to recieve email updates whenever Emily posts anything new! </div>
+          <div class="gapSmall"></div>
+      Name: <input type="text" id ="name" placeholder = "First Name"></input>
+      <div class="gapSmall"></div>
+    Email: <input type="email" id="exampleInputEmail2" placeholder="youremail@gmail.com">
+    </div>
+      <div class="gapSmall"></div>
+    <button type="submit">Subscribe</button>
+        <div class="gapSmall"></div>
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.sub{
+  position: relative;
+  top: 0;
+  padding-left: 4%;
+  margin: auto;
+  margin-left: 35%;
+  width: 30%;
+  border:  #ccccff 5px solid;
+  border-color:  #ccccff;
+  font-size: 20px;
+}
+
+
+button{
+  margin-left: 9%;
+}
