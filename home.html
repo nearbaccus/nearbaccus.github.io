@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="main.css"></link>
+  <link rel="stylesheet" href="home.css"></link>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <script src="main.js"></script>
+  <!-- navigation bar -->
+<div class = "topPage">
+<h1 class = "centerText">&#x2727;  My Life in Food &#x2727;</h1>
+
+
+  <div class="topnav">
+            <a id="home" href="home.html" onmouseover = "makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
+          <a id="recipes" href="recipes.html" onmouseover = "makeGrey(recipes)" onmouseout="makeBlack(recipes)">Recipes</a>
+          <a id="subscribe" href="subscribe.html" onmouseover = "makeGrey(subscribe)" onmouseout="makeBlack(subscribe)">Subscribe</a>
+
+          <a id="about" href="about.html" onmouseover = "makeGrey(about)" onmouseout="makeBlack(about)">About</a>
+          <script src="main.js"></script>
+          </div>
+</div>
+
+</head>
+
+<body>
+
+<h1 class="centerText">Recent Posts</h1>
+<script>
+import writeJsonFile from 'write-json-file';
+
+const ans = 42;
+writeJsonFile('answer.txt', ans);
+
+const json = {"answer": ans};
+writeJsonFile('answer_json.txt', json);
+</script>
+
+
+<div class="slideShow">
+  <div id="main">
+  <div class="recentRecipe" id ="creamyTomatoSoup">
+    <img src="tomatoSoup.png" style="width:65%">
+    <div class="title" id = "ctstitle"></div>
+    <div class="description" id="ctsing"></div>
+   <button class = "readmore"><a href="mintBrownies.html">Read More</a></button>
+  </div>
+</div>
+
+  <div class="recentRecipe" id ="main">
+    <h4><div id="sheetCake"style="display:block">
+    <img src="sheetCake.png" style="width:65%"></img>
+    <a class = "title" id="sctitle"></a>
+    <div class="description" id = "scing"></div>
+  <button class = "readmore"><a href="sheetCake.html">Read More</a></button></div>
+  </div>
+
+  <div class="recentRecipe" id ="main">
+    <h4><div id="cinnamonRolls"style="display:block">
+    <img src="cinnamonRolls.png" style="width:65%"></img>
+    <a class = "title" id="crtitle"></a>
+    <div class="description" id = "ing"></div>
+  <button class = "readmore"><a href="cinnamonRolls.html">Read More</a></button></div>
+  </div>
+
+
+
+  <script src="slideshow.js"></script>
+  </div>
+    <a class="prev" onclick="plusSlides(1)">&laquo; Prev</a>
+  <a class="next" onclick="plusSlides(-1)">Next  &raquo;</a>
+  <p class = "gapXL"></p>
+
+<script src="main.js"></script>
+<div class="dottedLine"></div>
+  <link rel="stylesheet" href="home.css"></link>
+
+<!-- shop top products -->
+  <h2 class = "centerText">Shop Products Mentioned in Posts</h2>
+  <div class="gapLarge"></div>
+
+  <a class = "leftImg"  href="https://www.amazon.com/gp/product/B000G0KJG4/ref=oh_aui_search_asin_title?ie=UTF8&psc=1", "sheetPan.png" id="sheetPan" onclick="productPage()"></a>
+  <a class = "imgShop"  href="https://www.williams-sonoma.com/products/williams-sonoma-potato-masher/?pkey=s%7Cpotato%20masher%7C6", "breadPan.png" id="breadPan" onclick="productPage()"></a>
+  <a class = "imgShop"  href="https://www.williams-sonoma.com/products/williams-sonoma-copper-goldtouch-nonstick-muffin-pan-12-well/?pkey=s%7Cgold%20touch%7C146" id="muffinTin" onclick="productPage()"></a>
+    <a class = "leftImg"  href="https://www.google.com/?safe=active" id="sheetPan" onclick="productPage()"></a>
+
+  <div class="gapLarge"></div>
+
+  <p class = "gapXL"></p>
+
+<div class="dottedLine"></div>
+
+
+
+
+<script class="map" type='text/javascript'
+
+        src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
+
+        async defer></script>
+<link rel="stylesheet" href="map.css"></link>
+<!-- <h1 class="about">About</div> -->
+            <h1 class="centerText">Resturant Suggestions</h1>
+
+            <div class = "suggestions"> Here are some of Emily's resturant suggestions</div>
+
+              <div id="myMap" style="margin-left: 20%; position:relative;width:60%;height:500px;"></div>
+
+<div class="gapXL"></div>
+
+
+  <script src = "map.js" type = "text/javascript"></script>
+
+<!-- google is just so the mouse appears, doesn't actually take user there -->
+
+<script src="product.js"></script>
+
+          </div>
+
+
+
+
+
+
+
+
+
+          </body>
+
+
+
+          </html>
+
+
+
+
+  </body>
+
+<div class = "bottomPage">
+  <p class = "gapXL"></p>
+<h3>&#xa9; 2019 | Emily Gutke<h3>
+  <p class = "gapXL"></p>
+<div>
+</html>
